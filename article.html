@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title> Article - HTML and CSS Demo </title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class = "header-overlay">
+                <div class = "header-content">
+                    <img src = "images/logo.svg" alt = "Site Logo" class = "logo">
+                    <div class = "text-content">
+                        <h1> HTML and CSS Demo </h1>
+                        <p> This page demonstrates HTML5 features and elements. </p>
+                    </div>
+                    <img src = "images/thumbnail.webp" alt = "Thumbnail" class = "thumbnail">
+                </div>
+            </div>
+        </header>
+
+        <nav role = "navigation" aria-label = "Main menu">
+            <ul class = "nav-menu">
+                <li><a href = "index.html" class = "nav-link"> Home </a></li>
+                <li><a href = "article.html" class = "nav-link"> Article </a></li>
+                <li><a href = "table.html" class = "nav-link"> Table </a></li>
+                <li><a href = "contact.html" class = "nav-link"> Contact </a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id = "article">
+                <article>
+                    <header class = "article-header">
+                        <h2> Understanding HTML </h2>
+                        <div class = "article-meta">
+                            <img src = "images/avatar.jpg" alt = "Author Avatar" class = "avatar">
+                            <div>
+                                <p class = "author-name"> By Job Goldhill </p>
+                                <p class = "publish-date"> Published May 18, 2025 </p>
+                            </div>
+                        </div>
+                    </header>
+
+                    <img src = "images/article-hero.jpg" alt = "article hero/ main image?" class = "article-hero">
+
+                    <p>
+                        HTML5 introduces semantic elements like <code>&lt;article&gt;</code> and <code>&lt;section&gt;</code> to structure content more meaningfully.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis deleniti modi recusandae veniam omnis, fugiat eum illo? Quo placeat consectetur omnis dignissimos facilis veniam, tenetur incidunt aliquid, hic ipsa fugiat!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, esse sed qui ipsa autem omnis possimus perspiciatis aliquid repellat vero ut vel neque dolores molestiae dicta illo voluptatibus. Labore, a!
+                    </p>
+
+                    <h3> Why Semantics Matter </h3>
+                     <p>
+                        Semantic tags improve accessibility, SEO, and readability for developers and browsers.
+                    </p>
+
+                    <blockquote>
+                        “Semantic HTML is the foundation of accessible and clean web design.” — W3C Guidelines
+                    </blockquote>
+
+                    <h3>Example Code</h3>
+                    <pre><code>
+                    &lt;section&gt;
+                        &lt;article&gt;
+                            &lt;h2&gt;Title&lt;/h2&gt;
+                            &lt;p&gt;Content...&lt;/p&gt;
+                        &lt;/article&gt;
+                    &lt;/section&gt;
+                    </code></pre>
+
+                    <footer class="article-footer">
+                    <p>Tags: <span class="tag">#HTML</span> <span class="tag">#WebDev</span> <span class="tag">#Accessibility</span></p>
+                    </footer>
+                </article>
+            </section>
+
+            <section id = "web-layouts">
+                <article class = "grid-article">
+                    <div class = "grid-text">
+                        <h2> Modern Web Layouts</h2>
+                        <p>
+                            CSS Grid allows for precise control of layouts. It's perfect for creating complex designs while keeping code clean and semantic.
+                        </p>
+                        <ul>
+                            <li> Two-dimensional layout control </li>
+                            <li> Gap and alignment support </li>
+                            <li> Responsive without media queries (in many cases) </li>
+                        </ul>
+                    </div>
+                    <div class = "grid-image">
+                        <img src = "images/layout-example.jpg" alt = "visual of a grid layout" class = "layout-visual">
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <div class = "tip-card">
+                <h3> Did you know? </h3>
+                <p> HTML entities like <code>&copy;</code> and <code>&lt;</code> are used to show reserved characters.</p>
+                <ul class = "resource-links">
+                    <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target = "_blank"> Learn HTML </a></li>
+                    <li><a href = "https://developer.mozilla.org/en-US/docs/Web/CSS" target = "_blank"> Learn CSS </a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <footer>
+            <p> &copy; 2025 Demo Page. All rights reserved. </p>
+            <div class = "footer-links">
+                <a href = "#top"> Back to Top </a>
+                <a href = "https://github.com/goldhilljob" target = "_blank"> GitHub </a>
+                <a href = "mailto:email@example.com"> Contact </a>
+            </div>
+        </footer>
+    </body>
+</html>
